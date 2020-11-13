@@ -1,11 +1,13 @@
-import react from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
 
 function Footer(){
-    const date = new Date();
-    const year = date.getFullYear();
+    const year = new Date().getFullYear();
     const user = 'Cipher';
-    return <p>© {year} Copyright: {user}</p>;
+    return (
+        <footer>
+            <p>Copyright © {year} - {user}</p>
+        </footer>
+    );
 }
 
 export default Footer;

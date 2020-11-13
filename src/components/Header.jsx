@@ -1,8 +1,11 @@
-import react from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
 
 function Header(){
-    return <h1>Google Keeps</h1>;
+    return (
+        <header>
+            <h1>Google Keep</h1>
+        </header>
+    );
 }
 
 export default Header;

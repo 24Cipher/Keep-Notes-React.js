@@ -11,9 +11,9 @@
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 
-import react from 'react';
+import React from 'react';
 import reactDOM from 'react-dom';
-import App from '';
+import App from './components/App';
 
 reactDOM.render(<App />, document.getElementById('root'));
 
