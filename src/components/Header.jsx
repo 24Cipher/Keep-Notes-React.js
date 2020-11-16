@@ -3,7 +3,7 @@ import React from 'react';
 function Header(){
     return (
         <header>
-            <h1>Google Keep</h1>
+            <h1>Keep notes</h1>
         </header>
     );
 }
